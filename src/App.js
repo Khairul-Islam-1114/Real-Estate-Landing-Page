@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Service from './pages/Services/Service';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Property from './pages/Property/Property';
+import Blog from './pages/Blog/Blog';
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
 <hr />
       <HowItWorks />
 
-      <Property />      
+      <Property />
+
+      <Blog />      
     </div>
   );
 }
