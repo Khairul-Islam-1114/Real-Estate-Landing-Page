@@ -18,9 +18,9 @@ const Home = () => {
        search your dream home for your life forever.
     </p>
 
-    <div className="d-flex gap-3">
-    <button className="btn btn-info text-white btn-small">Search Now</button>
-    <button className="btn btn-outline-info btn-small">View Property</button>
+    <div className="d-flex gap-3" id='hide'>
+    <button className="btn btn-info text-white hide1">Search Now</button>
+    <button className="btn btn-outline-info hide1">View Property</button>
     </div>
 
 </div>
@@ -34,6 +34,11 @@ const Home = () => {
 </div>
 
 </div>
+
+<div className="d-flex gap-3 justify-content-center" id='special'>
+    <button className="btn btn-info text-white btn-small hide2">Search Now</button>
+    <button className="btn btn-outline-info btn-small hide2">View Property</button>
+    </div>
     </div>
 
   )

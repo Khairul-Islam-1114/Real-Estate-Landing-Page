@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+#service{
+    font-family: 'DM Sans';
+}
+
+.holder{
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    h2{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    #howItWorks .myStyle{
+        display: flex;
+        flex-direction: column;
+    }
+    #design{
+        display: block;
+    }
+    
+}

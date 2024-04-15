@@ -6,7 +6,7 @@
 
 .icon{
     margin: auto;
-    padding-top: 2.5px;
+    padding: 2.5px;
     width: 30px;
     height: 30px;
     background-color: azure;
@@ -15,5 +15,19 @@
 
 .holder{
     background-color:#ffffff;
+
+}
+
+@media screen and (max-width: 768px){
+    h2{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+
     
 }

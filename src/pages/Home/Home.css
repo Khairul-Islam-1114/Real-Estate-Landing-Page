@@ -21,6 +21,11 @@
     margin-top: 80px;
 }
 
+@media screen and (min-width: 768px){
+#special .hide2{
+    display: none;
+}
+}
 
 @media screen and (max-width: 768px){
     h1{
@@ -30,8 +35,16 @@
         font-size: 14px;
     }
 
-    button{
-        font-size: 10px;
-
+    #hide{
+        display: none;
     }
+
+    .hide1{
+        display: none;
+    }
+
+   #special{
+    display: block;
+    width: 100%;
+   }
 }
