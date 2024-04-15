@@ -32,7 +32,7 @@ const toggleText = () => {
 
   return (
     <div className='container bg-light py-5' id='blog'>
-        <div className="row">
+        <div className="row blog-flex">
             <div className="col">
                 <img src={BigHouse} alt="Big-House" className="img-fluid" />
 

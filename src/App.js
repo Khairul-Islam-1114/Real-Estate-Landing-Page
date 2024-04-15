@@ -7,6 +7,7 @@ import Service from './pages/Services/Service';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Property from './pages/Property/Property';
 import Blog from './pages/Blog/Blog';
+import Testimonal from './pages/Testimonal/Testimonal';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <Property />
 
       <Blog />      
+
+      <Testimonal />
     </div>
   );
 }

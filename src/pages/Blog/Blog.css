@@ -13,3 +13,11 @@ a{
 .bold{
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px){
+    .blog-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
