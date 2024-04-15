@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Service from './pages/Services/Service';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
+import Property from './pages/Property/Property';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
 <hr />
       <Service />
 <hr />
-      <HowItWorks />      
+      <HowItWorks />
+
+      <Property />      
     </div>
   );
 }

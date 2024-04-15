@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+#property{
+    font-family: 'DM Sans';
+}
+
+.small{
+    font-size: 10px;
+}
+
+.property-holder{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    
+    .space{
+        margin-top: 10px;
+    }
+    
+    .flx{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
