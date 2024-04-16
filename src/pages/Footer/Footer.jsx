@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 import * as Icon from 'react-bootstrap-icons';
 
 import email from '../../assets/images/email.svg';
@@ -9,8 +10,8 @@ import phone from '../../assets/images/phone.svg';
 
 const Footer = () => {
   return (
-    <div className='container pt-5'>
-         <div className="row">
+    <div className='container pt-5' id='footer'>
+         <div className="row footer-row">
 
             <div className="col">
                 <p id="brand" className="text-info"><strong>McRent</strong></p>

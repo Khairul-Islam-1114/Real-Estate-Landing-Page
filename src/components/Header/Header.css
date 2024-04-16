@@ -3,4 +3,16 @@
 nav{
     font-family: 'DM Sans',sans-serif;
     word-wrap: break-word;
+    background: linear-gradient(90deg, rgba(236,6,46,0.9445903361344538) 0%, rgba(6,145,151,0.9866071428571429) 100%);
+}
+
+.navbar{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+ul li a{
+    color: aliceblue;
+
 }

@@ -3,3 +3,12 @@
 #testimonial{
     font-family: 'DM Sans';
 }
+
+.customer{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.box-card{
+    border: 1px solid;
+}
