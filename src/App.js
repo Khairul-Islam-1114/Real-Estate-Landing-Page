@@ -8,6 +8,7 @@ import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Property from './pages/Property/Property';
 import Blog from './pages/Blog/Blog';
 import Testimonal from './pages/Testimonal/Testimonal';
+import Footer from './pages/Footer/Footer';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <Blog />      
 
       <Testimonal />
+
+      <Footer />
     </div>
   );
 }

@@ -23,7 +23,7 @@ const ReviewCard = ({ customerImage, customerName, initialReview }) => {
   }
 
   return (
-    <div className='card w-25'>
+    <div className='card w-25 h-25'>
       <img src={customerImage} className="card-img-top img-fluid" alt={customerName} />
       <div className="card-body">
         <h5 className="text-center card-title">{customerName}</h5>
@@ -69,7 +69,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className='container'>
+    <div className='container bg-light py-5' id='testimonial'>
       <p className="text-info text-center mb-0"><strong>Testimonial</strong></p>
       <h2 className="text-center mb-5">What Our Customers are Saying</h2>
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
