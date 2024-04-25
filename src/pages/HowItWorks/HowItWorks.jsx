@@ -7,8 +7,8 @@ const HowItWorks = () => {
   return (
     <div className='container bg-light py-5' id='howItWorks'>
         <div className="row myStyle">
-            <div className="col">
-                <p className="text-info"><strong>How It Works</strong></p>
+            <div className="col column-1">
+                <p className="text-info first-p"><strong>How It Works</strong></p>
                 <h2>We are Ready to Help You to Get Home</h2>
 
                 <div className='holder'>

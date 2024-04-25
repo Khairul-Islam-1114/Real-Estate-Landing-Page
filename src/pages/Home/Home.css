@@ -4,7 +4,6 @@
     font-family: 'DM Sans';
 }
 
-
 .property1, .property2{
     border-radius: 50% 50% 0% 0%;
 }
@@ -21,30 +20,18 @@
     margin-top: 80px;
 }
 
-@media screen and (min-width: 768px){
-#special .hide2{
-    display: none;
-}
-}
 
-@media screen and (max-width: 768px){
-    h1{
-        font-size: 20px;
-    }
-    p{
-        font-size: 14px;
+
+@media (max-width: 768px){
+
+    .home-row{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
     }
 
-    #hide{
-        display: none;
+    h1, .column-1 p strong{
+        text-align: center;
     }
 
-    .hide1{
-        display: none;
-    }
-
-   #special{
-    display: block;
-    width: 100%;
-   }
 }

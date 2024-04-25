@@ -47,8 +47,8 @@ const toggleText = () => {
                 </p>    
             </div>
 
-            <div className="col">
-                <p className="text-info mb-0"><strong>Our Blog</strong></p>
+            <div className="col column-2">
+                <p className="text-info mb-0 first-p"><strong>Our Blog</strong></p>
                 <h2 className='mb-5'>Always Check Our Latest
                     Blog For Update Info
                 </h2>

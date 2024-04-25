@@ -12,3 +12,29 @@
 .box-card{
     border: 1px solid;
 }
+
+@media (max-width: 768px) {
+    .testimonal-row {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  
+    .testimonal-row .col {
+      margin-bottom: 20px; /* Add some space between the columns */
+    }
+  
+    .testimonal-row .col:last-child {
+      margin-bottom: 0; /* Remove margin from the last column */
+    }
+  
+    .testimonal-row img {
+      margin: auto; /* Center the images */
+    }
+  
+    .testimonal-row .bg-white {
+      width: 100%;
+      max-width: 300px; /* Limit the width of the testimonial cards */
+      margin: 0 auto; /* Center the testimonial cards */
+    }
+  }
+  

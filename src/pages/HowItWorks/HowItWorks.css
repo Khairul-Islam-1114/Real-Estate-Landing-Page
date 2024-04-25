@@ -12,14 +12,9 @@
 }
 
 @media screen and (max-width: 768px){
-    h2{
-        font-size: 18px;
-    }
-    h5{
-        font-size: 15px;
-    }
-    p{
-        font-size: 14px;
+    
+    .column-1 .first-p, h2{
+        text-align: center;
     }
 
     #howItWorks .myStyle{

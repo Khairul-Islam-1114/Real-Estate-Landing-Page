@@ -11,7 +11,7 @@ const Service = () => {
     <div className='container bg-light py-4' id='service'>
         <p className="text-center text-info"><strong>Why Choose Us</strong></p>
         <h2 className="text-center mb-5">We are Providing Best Services</h2>
-        <div className="row gap-2 mx-2">
+        <div className="row gap-2 mx-2 services-row">
             <div className="col holder rounded p-3">
 
                 <div className="icon">
